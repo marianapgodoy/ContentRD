@@ -1,0 +1,30 @@
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\TestAutomation_SeleNUnit.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\TestAutomation_SeleNUnit.pdb
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.ContentRD.WebObjects.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.WebPages.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.ContentRD.WebObjects.pdb
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.WebPages.pdb
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.pdb
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.xml
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.pdb
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.xml
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\obj\Debug\SeleNUnit.ContentRD.Suites.csprojResolveAssemblyReference.cache
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\obj\Debug\TestAutomation_SeleNUnit.dll
+C:\Users\Mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\TestAutomation_SeleNUnit\obj\Debug\TestAutomation_SeleNUnit.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\TestAutomation_SeleNUnit.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\TestAutomation_SeleNUnit.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.ContentRD.WebObjects.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.WebPages.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.ContentRD.WebObjects.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\SeleNUnit.WebPages.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.xml
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.pdb
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\bin\Debug\WebDriver.Support.xml
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\obj\Debug\SeleNUnit.ContentRD.Suites.csprojResolveAssemblyReference.cache
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\obj\Debug\TestAutomation_SeleNUnit.dll
+C:\Users\Mariana\Documents\GitHub_TPC\Automation\TestAutomation_SeleNUnit\obj\Debug\TestAutomation_SeleNUnit.pdb

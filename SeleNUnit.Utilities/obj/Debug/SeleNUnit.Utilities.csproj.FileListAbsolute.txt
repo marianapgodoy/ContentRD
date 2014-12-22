@@ -1,0 +1,11 @@
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\SeleNUnit.Utilities.dll.config
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\SeleNUnit.Utilities.dll
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\SeleNUnit.Utilities.pdb
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.dll
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.Support.dll
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.pdb
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.xml
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.Support.pdb
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\bin\Debug\WebDriver.Support.xml
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\obj\Debug\SeleNUnit.Utilities.dll
+c:\users\mariana\documents\visual studio 2012\Projects\TestAutomation_SeleNUnit\SeleNUnit.Utilities\obj\Debug\SeleNUnit.Utilities.pdb

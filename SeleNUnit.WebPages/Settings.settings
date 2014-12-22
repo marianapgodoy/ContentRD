@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SeleNUnit.WebPages" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Browser" Type="SeleNUnit.WebObjects.Browsers" Scope="User">
+      <Value Profile="(Default)">InternetExplorer</Value>
+    </Setting>
+    <Setting Name="TestEnvironment" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://lifepipe-qa.ipipeline.com/LTSearch.aspx?GAID=1581</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

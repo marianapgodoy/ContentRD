@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleNUnit.ContentRD.Suites", "TestAutomation_SeleNUnit\SeleNUnit.ContentRD.Suites.csproj", "{EC32D74E-5D75-462A-8AB3-A33E1377C5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleNUnit.WebObjects", "SeleNUnit.WebPages\SeleNUnit.WebObjects.csproj", "{6C22209D-16F8-404D-9E3E-546A2C64C2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleNUnit.ContentRD.WebObjects", "SeleNUnit.ContentRD.WebObjects\SeleNUnit.ContentRD.WebObjects.csproj", "{2218C58B-EEC3-4023-B313-CC134A222656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC32D74E-5D75-462A-8AB3-A33E1377C5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC32D74E-5D75-462A-8AB3-A33E1377C5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC32D74E-5D75-462A-8AB3-A33E1377C5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC32D74E-5D75-462A-8AB3-A33E1377C5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C22209D-16F8-404D-9E3E-546A2C64C2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C22209D-16F8-404D-9E3E-546A2C64C2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C22209D-16F8-404D-9E3E-546A2C64C2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C22209D-16F8-404D-9E3E-546A2C64C2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2218C58B-EEC3-4023-B313-CC134A222656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2218C58B-EEC3-4023-B313-CC134A222656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2218C58B-EEC3-4023-B313-CC134A222656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2218C58B-EEC3-4023-B313-CC134A222656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
