@@ -1,5 +1,7 @@
 # Visual Studio generated binaries
 *.suo
+**/bin/**
+**/obj/**
 
 # Vim swap files
 *.swp
