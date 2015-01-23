@@ -1,3 +1,9 @@
+# Visual Studio generated binaries
+*.suo
+
+# Vim swap files
+*.swp
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
