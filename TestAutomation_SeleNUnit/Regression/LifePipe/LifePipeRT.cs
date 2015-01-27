@@ -1,12 +1,12 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SeleNUnit.WebObjects;
 using SeleNUnit.ContentRD.WebObjects.Pages.LifePipe;
+using NUnit.Framework;
 
 
 namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
 {
-    [TestClass]
+    [TestFixture]
     public class LifePipeRT:SuiteBase
     {
         
@@ -24,7 +24,7 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
         /// Date:11/2014
         /// Tags: LifePipe Possitive Regression
         /// </summary>
-        [TestMethod]
+/*        [Test]
         [DataSource("System.Data.SqlClient", "Data Source=localhost\\MarianaDB;Database=local_db;Integrated Security=True;", "Quote_Criteria", DataAccessMethod.Sequential)]
         public void ViewAllQuotes_ValidInput_Results()
         { 
@@ -60,8 +60,8 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
             //Assert.IsTrue(termQuoteInfromation.Contains("Preferred Non-Tobacco"));
             #endregion Assertions
         }
-
-        // [TestMethod]
+*/
+        // [Test]
         //public void ViewAllQuotes_ValidInput_Results()
         //{ 
 
@@ -105,7 +105,7 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
         /// Date:
         /// Tags: LifePipe Possitive
         /// </summary>
-        [TestMethod]
+        [Test]
         public void ShowTopX_ValidInput_Results()
         {
 
@@ -149,7 +149,7 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
         /// Date:
         /// Tags: LifePipe Possitive
         /// </summary>
-        [TestMethod]
+        [Test]
         public void NeedsAnalysis_ValidInput_Results()
         {
 

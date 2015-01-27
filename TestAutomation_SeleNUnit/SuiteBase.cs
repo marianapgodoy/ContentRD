@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SeleNUnit.WebObjects;
+using NUnit.Framework;
 
 namespace SeleNUnit.ContentRD.Suites
 {
-    [TestClass]
+    [TestFixture]
     public abstract class SuiteBase
     {
         public TestContext TestContext { get; set; }
 
-        [TestInitialize]
+        [SetUp]
         public void TestInitialize()
         {
             Browser.Start("http://localhost:4444/wd/hub");
         }
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             Browser.Quit();
