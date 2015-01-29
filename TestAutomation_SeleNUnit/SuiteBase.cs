@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SeleNUnit.WebObjects;
 using NUnit.Framework;
+using Newtonsoft.Json;
 
 namespace SeleNUnit.ContentRD.Suites
 {
@@ -24,5 +25,13 @@ namespace SeleNUnit.ContentRD.Suites
         {
             Browser.Quit();
         }
+
+#region AuxiliarMethods
+        public static List<Dictionary<string, string>> JsonEnumerator(string file)
+        {
+            string json = System.IO.File.ReadAllText(file);
+            return JsonConvert.DeserializeObject<List<Dictionary<string, string>>>(json);
+        }
+#endregion
     }
 }

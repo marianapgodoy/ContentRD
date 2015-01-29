@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using SeleNUnit.WebObjects;
 using SeleNUnit.ContentRD.WebObjects.Pages.LifePipe;
 using NUnit.Framework;
@@ -9,6 +10,9 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
     [TestFixture]
     public class LifePipeRT:SuiteBase
     {
+#region TestDataSources
+        static List<Dictionary<string, string>> TestData1 = JsonEnumerator(@"TestData\TestData1.json");
+#endregion
         
         private TestContext testContextInstance;
         public TestContext TestContext
@@ -24,9 +28,11 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
         /// Date:11/2014
         /// Tags: LifePipe Possitive Regression
         /// </summary>
-/*        [Test]
-        [DataSource("System.Data.SqlClient", "Data Source=localhost\\MarianaDB;Database=local_db;Integrated Security=True;", "Quote_Criteria", DataAccessMethod.Sequential)]
-        public void ViewAllQuotes_ValidInput_Results()
+        [Test]
+        //[DataSource("System.Data.SqlClient", "Data Source=localhost\\MarianaDB;Database=local_db;Integrated Security=True;", "Quote_Criteria", DataAccessMethod.Sequential)]
+        //public void ViewAllQuotes_ValidInput_Results()
+        [TestCaseSource("TestData1")]
+        public void ViewAllQuotes_ValidInput_Results(Dictionary<string, string> testData)
         { 
 
             #region TestData
@@ -39,10 +45,14 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
             new RSALogin().DoLogin(urlParams, userName, password);
             var Quote=new LTSearch();
 
-            Quote.SetClientName(Convert.ToString(TestContext.DataRow["Client First Name"]),Convert.ToString(TestContext.DataRow["Client Last Name"]));
-            Quote.SetAmountOfInsurance((Convert.ToString(TestContext.DataRow["Ammount of Insurance"])));
-            Quote.SetDOB(Convert.ToDateTime(TestContext.DataRow["DOB"]));
-            Quote.SetState((Convert.ToString(TestContext.DataRow["State"])));
+            /* Quote.SetClientName(Convert.ToString(TestContext.DataRow["Client First Name"]),Convert.ToString(TestContext.DataRow["Client Last Name"])); */
+            /* Quote.SetAmountOfInsurance((Convert.ToString(TestContext.DataRow["Ammount of Insurance"]))); */
+            /* Quote.SetDOB(Convert.ToDateTime(TestContext.DataRow["DOB"])); */
+            /* Quote.SetState((Convert.ToString(TestContext.DataRow["State"]))); */
+            Quote.SetClientName(testData["Client First Name"], testData["Client Last Name"]);
+            Quote.SetAmountOfInsurance(testData["Ammount of Insurance"]);
+            Quote.SetDOB(Convert.ToDateTime(testData["DOB"]));
+            Quote.SetState(testData["State"]);
             Quote.setDesiredLength("6");
             Quote.setDesiredLength("8");
             Quote.setDesiredLength("9");
@@ -51,7 +61,8 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
 
             #region Assertions
             string termQuoteInfromation=new LTAllQuotes().getTermQuoteInformation();
-            Assert.IsTrue(termQuoteInfromation.Contains(Convert.ToString(TestContext.DataRow["Client First Name"])+" "+Convert.ToString(TestContext.DataRow["Client Last Name"])));
+            //Assert.IsTrue(termQuoteInfromation.Contains(Convert.ToString(TestContext.DataRow["Client First Name"])+" "+Convert.ToString(TestContext.DataRow["Client Last Name"])));
+            Assert.IsTrue(termQuoteInfromation.Contains(testData["Client First Name"]+" "+testData["Client Last Name"]));
             //Assert.IsTrue(termQuoteInfromation.Contains("34/34"));
             //Assert.IsTrue(termQuoteInfromation.Contains("Male"));
             //Assert.IsTrue(termQuoteInfromation.Contains("AL"));
@@ -60,7 +71,7 @@ namespace SeleNUnit.ContentRD.Suites.Regression.LifePipe
             //Assert.IsTrue(termQuoteInfromation.Contains("Preferred Non-Tobacco"));
             #endregion Assertions
         }
-*/
+
         // [Test]
         //public void ViewAllQuotes_ValidInput_Results()
         //{ 
