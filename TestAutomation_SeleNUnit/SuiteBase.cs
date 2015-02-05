@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using SeleNUnit.WebObjects;
 using NUnit.Framework;
 using Newtonsoft.Json;
@@ -17,7 +13,7 @@ namespace SeleNUnit.ContentRD.Suites
         [SetUp]
         public void TestInitialize()
         {
-            Browser.Start("http://localhost:4444/wd/hub");
+            Browser.Start();
         }
 
         [TearDown]

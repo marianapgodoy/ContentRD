@@ -19,7 +19,6 @@ using SeleNUnit.WebObjects;
 
 
 
-
 namespace SeleNUnit.WebObjects
 {
     [Serializable]
@@ -41,7 +40,21 @@ namespace SeleNUnit.WebObjects
 
         public static Browsers SelectedBrowser
         {
-            get { return Settings.Default.Browser; }
+            get
+            {
+                string browser = ConfigHelper.GetBrowserName();
+                switch(browser)
+                {
+                    case "IE":
+                        return Browsers.InternetExplorer;
+                    case "Firefox":
+                        return Browsers.Firefox;
+                    case "Chrome":
+                        return Browsers.Chrome;
+                    default:
+                        return Settings.Default.Browser;
+                }
+            }
         }
 
         public static Uri Url
@@ -67,9 +80,9 @@ namespace SeleNUnit.WebObjects
 
         #region Public methods
 
-        public static void Start(string remoteServerAddress)
+        public static void Start()
         {
-            _webDriver = StartWebDriver(remoteServerAddress);
+            _webDriver = StartWebDriver();
         }
 
         public static void Navigate(Uri url)
@@ -206,17 +219,18 @@ namespace SeleNUnit.WebObjects
 
         private static IWebDriver _webDriver;
         private static string _mainWindowHandler;
-        private static string _remoteServerAddress = "http://localhost:4444/wd/hub";
         private static IWebDriver WebDriver
         {
-            get { return _webDriver ?? StartWebDriver(_remoteServerAddress); }
+            get { return _webDriver ?? StartWebDriver(); }
         }
 
-        private static IWebDriver StartWebDriver(string remoteServerAddress)
+        private static IWebDriver StartWebDriver()
         {
             Contract.Ensures(Contract.Result<IWebDriver>() != null);
 
             if (_webDriver != null) return _webDriver;
+
+            string remoteServerAddress = ConfigHelper.GetSeleniumUrl() ?? "http://localhost:4444/wd/hub";
 
             switch (SelectedBrowser)
             {
@@ -247,7 +261,7 @@ namespace SeleNUnit.WebObjects
             ieOptions.BrowserCommandLineArguments = "-private";
             ieOptions.AddAdditionalCapability("version", "10");
             // Convert ieOptions to an ICapabilities object and instantiate driver
-            return new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), ieOptions.ToCapabilities());
+            return new RemoteWebDriver(new Uri(remoteServerAddress), ieOptions.ToCapabilities());
 
         }
 

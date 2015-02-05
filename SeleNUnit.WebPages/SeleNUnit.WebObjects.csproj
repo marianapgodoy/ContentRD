@@ -52,9 +52,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\External\selenium-dotnet-2.44.0\net40\WebDriver.Support.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\External\Json60r8\Bin\Net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Browser.cs" />
+    <Compile Include="ConfigHelper.cs" />
     <Compile Include="DirectoryHelper.cs" />
     <Compile Include="EnumHelper.cs" />
     <Compile Include="Extensions.cs" />
